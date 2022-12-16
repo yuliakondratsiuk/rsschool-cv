@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav_table {
+    padding: 0;
+
+}
+
+.nav_link {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_header {
+    display: flex;
+
+}
+
+.title {
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.nav_a {
+    padding: 0 20px;
+    line-height: 50px;
+
+}
+
+h1,
+h2,
+.name_div {
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Cinzel', serif;
+}
+
+.name_div {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.page_footer {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+
+}
+
+.li_footer {
+    list-style: none;
+}
